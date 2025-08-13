@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoginPage extends BasePage {
-    private By usernameField = By.name("username");
-    private By passwordField = By.name("password");
+    private By usernameField = By.name("Admin");
+    private By passwordField = By.name("admin123");
     private By loginButton = By.xpath("//button[@type='submit']");
 
     public LoginPage(WebDriver driver) {
@@ -22,3 +22,4 @@ public class LoginPage extends BasePage {
         click(loginButton);
     }
 }
+
